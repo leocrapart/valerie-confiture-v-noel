@@ -10,7 +10,11 @@
         <div v-for="type in pointVente" :key="type.nomType">
             <div class="border-t-4"></div>
 
-            <div class="font-bold text-lg">{{ type.nomType }} </div>
+            <div class="flex justify-center">
+                <div class="font-bold text-lg">{{ type.nomType }} </div>
+            </div>
+            
+            
             <div class="border-t-4 pb-4"></div>
 
             <div v-for="pointVente in type.liste" :key="pointVente.rue">
