@@ -64,12 +64,12 @@ export default {
                             urlReseauSocial: "",
                         },
                         {
-                            nom: "La Source Origin'elles",
-                            site: "https://www.lasourceoriginelles.fr/",
-                            rue: "5 Avenue des Martyrs de la Résistance",
-                            codePostal: "47200 Marmande",
-                            reseauSocial: "Facebook: Lasource Originelles",
-                            urlReseauSocial: "https://www.facebook.com/SourceOriginelles"
+                            nom: "La Ferme De La Bergerie",
+                            site: "",
+                            rue: "La Bergerie",
+                            codePostal: "47180 Sainte-Bazeille",
+                            reseauSocial: "Facebook: La Ferme De La Bergerie",
+                            urlReseauSocial: "https://www.facebook.com/FermeDeLaBergerie"
                         },
                     ]
                 },
@@ -92,42 +92,10 @@ export default {
                     nomType: "Boulangerie",
                     liste: [
                         {
-                           nom: "Boulangerie La Panetière Valsesia",
-                           site: "",
-                           rue:"4 avenue Jacques Bordeneuve",
-                           codePostal: "47300 Villeneuve Sur Lot",
-                           reseauSocial: "Facebook: la panetiere valsesia",
-                           urlReseauSocial: "https://www.facebook.com/la.panetiere.valsesia",
-                        },
-                        {
                            nom: "Boulangerie Epi d'Or",
                            site: "",
                            rue:"Le bourg",
                            codePostal: "47430 Mas d'Agenais",
-                           reseauSocial: "",
-                           urlReseauSocial: "",
-                        },
-                        {
-                           nom: "Boulangerie-Patisserie Reboux-Denaules",
-                           site: "",
-                           rue:"52 avenue Garonne",
-                           codePostal: "47430 Mas d'Agenais",
-                           reseauSocial: "",
-                           urlReseauSocial: "",
-                        },
-                        {
-                           nom: "Boulangerie-Patisserie Varona Reboux",
-                           site: "",
-                           rue:"36 Avenue du Général de Gaulle",
-                           codePostal: "47180 Sainte-Bazeille",
-                           reseauSocial: "",
-                           urlReseauSocial: "",
-                        },
-                        {
-                           nom: "Pani Fournil 113",
-                           site: "",
-                           rue:"15 Avenue du Général de Gaulle",
-                           codePostal: "47180 Sainte-Bazeille",
                            reseauSocial: "",
                            urlReseauSocial: "",
                         },
