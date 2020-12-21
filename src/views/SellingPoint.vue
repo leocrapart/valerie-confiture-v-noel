@@ -52,16 +52,16 @@ export default {
                             site: "http://www.le-gout-des-saisons.com/",
                             rue: "7 Loiseau",
                             codePostal: "33126 Fronsac",
-                            reseauSocial: "",
-                            urlReseauSocial: "",
+                            reseauSocial: "Facebook: Le goût des saisons",
+                            urlReseauSocial: "https://www.facebook.com/Le-go%C3%BBt-des-saisons-1708549259380560/",
                         },
                         {
                             nom: "Le Goût des Saisons",
                             site: "http://www.le-gout-des-saisons.com/",
                             rue: "889-893 Avenue du Maréchal Foch",
                             codePostal: "40000 Mont-de-Marsan",
-                            reseauSocial: "",
-                            urlReseauSocial: "",
+                            reseauSocial: "Facebook: Le Gout Des Saisons, Producteur De Saveurs",
+                            urlReseauSocial: "https://www.facebook.com/legoutdessaisons/",
                         },
                         {
                             nom: "La Ferme De La Bergerie",
@@ -74,21 +74,6 @@ export default {
                     ]
                 },
                 type2: {
-                    nomType: "Point Poste",
-                    liste: [
-                        {
-                           nom: "Point Poste",
-                           site: "",
-                           rue:"Le bourg",
-                           codePostal: "47430 Caumont-Sur-Garonne",
-                           reseauSocial: "",
-                           urlReseauSocial: "",
-                        },
-
-                    ]
-
-                },
-                type3: {
                     nomType: "Boulangerie",
                     liste: [
                         {
