@@ -71,6 +71,14 @@ export default {
                             reseauSocial: "Facebook: La Ferme De La Bergerie",
                             urlReseauSocial: "https://www.facebook.com/FermeDeLaBergerie"
                         },
+                        {
+                            nom: "Lou Paney",
+                            site: "",
+                            rue: "Lieu dit Petit Piis",
+                            codePostal: "47200 Marcellus",
+                            reseauSocial: "Facebook: Lou Paney",
+                            urlReseauSocial: "https://www.facebook.com/Lou-Paney-fruitsl%C3%A9gumesplantes-555610938281207/"
+                        },
                     ]
                 },
                 type2: {
