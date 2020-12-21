@@ -49,7 +49,7 @@ export default {
                     liste: [
                         {
                             nom: "Le Goût des Saisons",
-                            site: "http://www.le-gout-des-saisons.com/",
+                            site: "",
                             rue: "7 Loiseau",
                             codePostal: "33126 Fronsac",
                             reseauSocial: "Facebook: Le goût des saisons",
@@ -57,7 +57,7 @@ export default {
                         },
                         {
                             nom: "Le Goût des Saisons",
-                            site: "http://www.le-gout-des-saisons.com/",
+                            site: "",
                             rue: "889-893 Avenue du Maréchal Foch",
                             codePostal: "40000 Mont-de-Marsan",
                             reseauSocial: "Facebook: Le Gout Des Saisons, Producteur De Saveurs",
