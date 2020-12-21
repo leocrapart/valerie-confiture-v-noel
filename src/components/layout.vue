@@ -13,6 +13,10 @@
         </div>
         <div>
             <a href="https://instagram.com">Instagram</a>
+        </div>
+
+        <div>
+            <router-link to="/A-propos">A propos</router-link>
         </div> 
         </div>
     </div>
@@ -21,6 +25,7 @@
     
     <slot></slot>
 
+    <!-- 
     <div class="">
         <div>
             <router-link to="/A-propos">
@@ -35,6 +40,7 @@
         </div>
         
     </div>
+    -->
 
     
 
