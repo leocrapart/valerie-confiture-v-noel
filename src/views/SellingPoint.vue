@@ -1,12 +1,7 @@
 <template>
   <Layout>
+      <div class="py-2"></div>
       <div class="px-4">
-        <div class="flex justify-center">
-            <div class="text-lg py-4 font-semibold">
-                Points de vente
-            </div>
-        </div>
-
         <div v-for="type in pointVente" :key="type.nomType">
             <div class="border-t-4"></div>
 
@@ -15,7 +10,7 @@
             </div>
             
             
-            <div class="border-t-4 pb-4"></div>
+            <div class="border-t-4 pb-6"></div>
 
             <div v-for="pointVente in type.liste" :key="pointVente.rue">
                 <div v-if="pointVente.site" class="font-bold underline"><a :href="pointVente.site">{{ pointVente.nom }} </a></div>
@@ -45,7 +40,7 @@ export default {
         return {
             pointVente: {
                 type1: {
-                    nomType: "Magasin Direct Producteur",
+                    nomType: "Points de vente",
                     liste: [
                         {
                             nom: "Le Goût des Saisons",
@@ -72,6 +67,14 @@ export default {
                             urlReseauSocial: "https://www.facebook.com/FermeDeLaBergerie"
                         },
                         {
+                            nom: "Restaurant La Dona",
+                            site: "",
+                            rue: "Lieu dit les échars",
+                            codePostal: "47200 Virazeil",
+                            reseauSocial: "Facebook: La Dona",
+                            urlReseauSocial: "https://www.facebook.com/restaurantladona"
+                        },
+                        {
                             nom: "Lou Paney",
                             site: "",
                             rue: "Lieu dit Petit Piis",
@@ -79,11 +82,6 @@ export default {
                             reseauSocial: "Facebook: Lou Paney",
                             urlReseauSocial: "https://www.facebook.com/Lou-Paney-fruitsl%C3%A9gumesplantes-555610938281207/"
                         },
-                    ]
-                },
-                type2: {
-                    nomType: "Boulangerie",
-                    liste: [
                         {
                            nom: "Boulangerie Epi d'Or",
                            site: "",
@@ -93,7 +91,7 @@ export default {
                            urlReseauSocial: "",
                         },
                     ]
-                }
+                },
             }
         }
     }
