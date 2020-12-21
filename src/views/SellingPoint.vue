@@ -66,7 +66,7 @@ export default {
                         {
                             nom: "La Ferme De La Bergerie",
                             site: "",
-                            rue: "La Bergerie",
+                            rue: "D813 La Bergerie",
                             codePostal: "47180 Sainte-Bazeille",
                             reseauSocial: "Facebook: La Ferme De La Bergerie",
                             urlReseauSocial: "https://www.facebook.com/FermeDeLaBergerie"
