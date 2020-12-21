@@ -1,5 +1,6 @@
 <template>
-  <Layout class="px-4">
+  <Layout>
+      <div class="px-4">
         <div class="flex justify-center">
             <div class="text-lg py-4 font-semibold">
                 Points de vente
@@ -23,6 +24,8 @@
             </div>
             
         </div>
+      </div>
+
 
   </Layout>
 </template>
