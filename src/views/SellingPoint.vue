@@ -54,7 +54,7 @@ export default {
                             nom: "Le Goût des Saisons",
                             site: "",
                             rue: "889-893 Avenue du Maréchal Foch",
-                            codePostal: "40000 Mont-de-",
+                            codePostal: "40000 Mont-de-Marsan",
                             reseauSocial: "Facebook: Le Gout Des Saisons, Producteur De Saveurs",
                             urlReseauSocial: "https://www.facebook.com/legoutdessaisons/",
                         },
