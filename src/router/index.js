@@ -22,6 +22,11 @@ const routes = [
     path: '/points-de-vente',
     name: 'SellingPoint',
     component: () => import('../views/SellingPoint.vue')
+  },
+  {
+    path: '/produit/*',
+    name: 'Page confiture',
+    component: () => import('../views/Product.vue')
   }
 ]
 
