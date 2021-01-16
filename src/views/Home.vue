@@ -17,48 +17,31 @@
       </div>
     </div>
 
-    <div class="p-4">
+    <div class="p-4" v-for="confiture in confitures" :key="confiture.url">
         
-        <router-link to="/produit/fraise">
+        <router-link :to="'/produit/' + confiture.url">
             <div class="flex flex-col justify-center py-4">
-                <img class="rounded-t-lg" src="https://ik.imagekit.io/pl6zwucqxr/confiture-framboise_Wh_I1bPOeQ3F.jpg"/>
-                <div class="flex justify-center py-2 font-semibold bg-gray-200 rounded-b-lg">Confiture de framboise</div>
+                <img class="rounded-t-lg" :src="confiture.imageUrl"/>
+                <div class="flex justify-center py-2 font-semibold bg-gray-200 rounded-b-lg">{{ confiture.name }} </div>
             </div>
         </router-link>
         
-
-        <router-link to="/produit/fraise">
-            <div class="flex flex-col justify-center py-4">
-                <img class="rounded-t-lg" src="https://ik.imagekit.io/pl6zwucqxr/confiture-framboise_Wh_I1bPOeQ3F.jpg"/>
-                <div class="flex justify-center py-2 font-semibold bg-gray-200 rounded-b-lg">Confiture de framboise</div>
-            </div>
-        </router-link>
-
-        <router-link to="/produit/fraise">
-            <div class="flex flex-col justify-center py-4">
-                <img class="rounded-t-lg" src="https://ik.imagekit.io/pl6zwucqxr/confiture-framboise_Wh_I1bPOeQ3F.jpg"/>
-                <div class="flex justify-center py-2 font-semibold bg-gray-200 rounded-b-lg">Confiture de framboise</div>
-            </div>
-        </router-link>
-
-        <router-link to="/produit/fraise">
-            <div class="flex flex-col justify-center py-4">
-                <img class="rounded-t-lg" src="https://ik.imagekit.io/pl6zwucqxr/confiture-framboise_Wh_I1bPOeQ3F.jpg"/>
-                <div class="flex justify-center py-2 font-semibold bg-gray-200 rounded-b-lg">Confiture de framboise</div>
-            </div>
-        </router-link>
-
-
       </div>
 
   </Layout>
 </template>
 <script>
 import Layout from "@/components/layout"
+import json from "@/data.json"
 
 export default {
   components: {
     Layout
+  },
+  data() {
+    return {
+      confitures: json.confitures
+    }
   }
 
 }

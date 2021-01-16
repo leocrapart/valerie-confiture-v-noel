@@ -1,21 +1,26 @@
 <template>
     <div class="">
     <Layout>
-        
+        <div v-for="confiture in confitures" :key="confiture.url">
+        <div v-if="$route.path == '/produit/' + confiture.url">
+
+
         <div class="pt-2"></div>
 
-        <div class="flex justify-center font-semibold"> Confiture de framboise </div>
+        <div class="flex justify-center font-semibold">{{ confiture.name }} </div>
 
         <div class="pt-3"></div>
 
-        <div class="flex flex-col justify-center px-2">
-            <img class="rounded-md" src="https://ik.imagekit.io/pl6zwucqxr/confiture-framboise_Wh_I1bPOeQ3F.jpg"/>
+        <div class="flex flex-col px-2">
+            <div class="w-64 flex self-center">
+                <img class="rounded-md" :src="confiture.imageUrl"/>
+            </div>
         </div>
         <div class="px-2">
 
             <div class="pt-5"></div>
 
-            <div class=" border-2 border-gray-400 rounded px-4 py-3">Confiture extra de framboise faite avec 60% de fruits direct producteur du Lot-et-Garonne. Cuite traditionnellement dans des chaudrons en cuivre.     </div>
+            <div class=" border-2 border-gray-400 rounded px-4 py-3">{{ confiture.description1 }} faite avec {{ confiture.description2 }} de fruits direct producteur du Lot-et-Garonne. Cuite traditionnellement dans des chaudrons en cuivre. </div>
         
             <div class="pt-5"></div>
 
@@ -30,7 +35,7 @@
                 <div class="self-center whitespace-nowrap">Pot de 230g </div>
                 
                 <div class="flex w-full justify-end self-center">
-                    <div class="font-bold">4,80€</div>
+                    <div class="font-bold">{{ confiture.prix230 }}</div>
                 </div>
 
             </div>
@@ -48,7 +53,7 @@
                 <div class="self-center whitespace-nowrap">Pot de 340g </div>
                 
                 <div class="flex w-full justify-end self-center">
-                    <div class="font-bold">5,50€</div>
+                    <div class="font-bold">{{ confiture.prix340 }}</div>
                 </div>
 
             </div>
@@ -56,7 +61,7 @@
 
             <div class="pt-5"></div>
 
-            <div class="font-semibold">Passer commande</div>
+            <div class="font-semibold">Pour passer commande</div>
 
             <div class="pt-1"></div>
 
@@ -79,6 +84,9 @@
                 </div>
             </div>
 
+
+        </div>
+        </div>
         </div>
     </Layout>
 
@@ -87,14 +95,13 @@
 </template>
 <script>
 import Layout from "@/components/layout"
+import json from "@/data.json"
 
 export default {
-  components: { Layout },
+    components: { Layout },
     data() {
         return {
-            produits: {
-
-            }
+            confitures: json.confitures
         }
     }
 }

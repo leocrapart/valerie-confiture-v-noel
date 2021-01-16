@@ -1,0 +1,40 @@
+{
+    "confitures": [
+        {
+            "url": "fraise",
+            "name": "Confiture de fraise",
+            "imageUrl": "https://ik.imagekit.io/pl6zwucqxr/fraise_Hw3_r3b1s.jpg",
+            "prix230": "4,80€",
+            "prix340": "5,50€",
+            "description1": "Confiture extra de fraise",
+            "description2": "60%"
+        },
+        {
+            "url": "abricot",
+            "name": "Confiture d'abricot",
+            "imageUrl": "https://ik.imagekit.io/pl6zwucqxr/abricot_xvFoSuXQt.jpg",
+            "prix230": "4,80€",
+            "prix340": "5,50€",
+            "description1": "Confiture extra d'abricot",
+            "description2": "60%"
+        },
+        {
+            "url": "cerise",
+            "name": "Confiture de cerise",
+            "imageUrl": "https://ik.imagekit.io/pl6zwucqxr/cerise_uD0KSoa2S.jpg",
+            "prix230": "4,80€",
+            "prix340": "5,50€",
+            "description1": "Confiture extra de cerise",
+            "description2": "60%"
+        },
+        {
+            "url": "framboise",
+            "name": "Confiture de framboise",
+            "imageUrl": "https://ik.imagekit.io/pl6zwucqxr/fraise_Hw3_r3b1s.jpg",
+            "prix230": "4,80€",
+            "prix340": "5,50€",
+            "description1": "Confiture extra de framboise",
+            "description2": "60%"
+        }
+    ]
+}
